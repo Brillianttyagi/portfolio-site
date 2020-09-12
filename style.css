@@ -5,6 +5,9 @@
 body{
     background-color: black;
 }
+header{
+    margin-top: 20px;
+}
 a {
     color: #20C20E;
     text-decoration: none;
@@ -33,14 +36,66 @@ a {
 .menu_1 li:hover{
     border: #20C20E 1px solid;
 }
+.name{
+    color: #20C20E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 90px;
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+}
+.pic{
+    animation: moveimage 2s linear infinite;
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
+    margin-bottom:50px ;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px green solid;
+}
+#image{
+    border-radius: 20px;
+    background: linear-gradient(green, lime);
+}
+#image img{
+     border-radius: 20px;
+    opacity: 70%;
+}
+.tools{
+    margin-top: 20000px;
+    color: #20C20E;
+    clear: both;
+    text-align: center;
+}
+.tools1{
+    margin-top: 10px;
+}
 .footer{
     border: #20C20E 1px solid;
     left: 0;
     bottom: 0;
-    position: fixed;
     width: 99.6%;
     text-align: center;
 }
 .bottom{
     padding: 50px;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        margin-top: 150px;
+    }
+    50% {
+        margin-top: 180px;
+    }
+  }
+@keyframes moveimage{
+    0%,100% {
+        margin-top: 60px;
+    }
+    50% {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
 }
