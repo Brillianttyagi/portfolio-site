@@ -41,7 +41,7 @@ a {
     color: #20C20E;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 150px;
-    margin-left: 40px;
+    margin-left: 180px;
     animation: MoveUpDown 2.5s linear infinite;
     position: absolute;
     width: 50%;
@@ -50,9 +50,14 @@ a {
     color: red;
 
 }
-.name img{
+.imgdiv{
+    margin-left: 40px;
+    margin-top: 130px;
     float: left;
-    animation: image 5s linear infinite;
+}
+.imgdiv img{
+    float: left;
+    animation: tool 1.5s linear infinite;
 }
 .pic{
     animation: moveimage 2s linear infinite;
@@ -134,5 +139,15 @@ a {
     50% {
         margin-top: 0px;
         margin-bottom: 40px;
+    }
+}
+@keyframes img{
+    0%,100% {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    50% {
+        margin-top: 0px;
+        margin-bottom: 70px;
     }
 }
