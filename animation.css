@@ -1,4 +1,4 @@
-.stars, .twinkling, .clouds {
+.stars {
   position:absolute;
   top:0;
   left:0;
@@ -8,8 +8,7 @@
   height:100%;
   display:block;
 }
-
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background:#000 url(https://c1.wallpaperflare.com/preview/302/309/318/milky-way-starry-sky-night-sky-star.jpg) repeat top center;
   z-index:0;
 }

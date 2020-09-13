@@ -45,6 +45,10 @@ a {
     animation: MoveUpDown 2.5s linear infinite;
     position: absolute;
 }
+.icon_below_hii a:hover{
+    color: red;
+
+}
 .pic{
     animation: moveimage 2s linear infinite;
     float: right;
@@ -64,15 +68,17 @@ a {
     opacity: 70%;
 }
 .tools{
-    margin-top: 20000px;
     color: #20C20E;
     clear: both;
     text-align: center;
 }
 .tools1{
+    animation: tool 2.5s linear infinite;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .footer{
+    color: #20C20E;
     border: #20C20E 1px solid;
     left: 0;
     bottom: 0;
@@ -81,6 +87,21 @@ a {
 }
 .bottom{
     padding: 50px;
+}
+.icon-footer-row{
+    float: right;
+    margin-right: 80px;
+}
+.id-address{
+    font-size: small;
+    float: left;
+    margin-left: 80px;
+}
+.copyright {
+    clear: both;
+}
+.icon-footer-row a:hover{
+    color: red;
 }
 
 @keyframes MoveUpDown {
@@ -97,6 +118,16 @@ a {
     }
     50% {
         margin-top: 70px;
+        margin-bottom: 40px;
+    }
+}
+@keyframes tool{
+    0%,100% {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    50% {
+        margin-top: 0px;
         margin-bottom: 40px;
     }
 }
