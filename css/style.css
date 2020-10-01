@@ -9,6 +9,13 @@ body{
 header{
     margin-top: 20px;
 }
+#c{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+    opacity: 1;
+}   
 a {
     color: #20C20E;
     text-decoration: none;
